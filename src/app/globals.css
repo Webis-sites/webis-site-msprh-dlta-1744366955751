@@ -9,7 +9,11 @@
       --background-end-rgb: 255, 255, 255;
       --primary-color: #FF6B6B;
       --secondary-color: #f7e9e9;
-    }
+    
+  --shadow-light: 4px 4px 10px rgba(255,107,107,0.3), -4px -4px 10px rgba(255,255,255,0.8);
+  --shadow-pressed: 2px 2px 5px rgba(255,107,107,0.4), -2px -2px 5px rgba(255,255,255,0.9);
+  --transition-default: all 0.3s ease;
+}
 
     html {
       scroll-behavior: smooth;
